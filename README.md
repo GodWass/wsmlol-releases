@@ -9,13 +9,35 @@ WSMLol helps you during the ~30 seconds of champion select and after your games,
 
 ## Features
 
-- **Champion select, live** (official local League Client API): your role and lane opponent, ban and pick suggestions with their winrate and sample size, an estimated win probability, and the most played build for your champion (runes, summoner spells, items, skill order) with one-click import.
-- **Loading screen**: once your game has started, the rank, season winrate and champion mastery of the 10 players (names shown by the game itself at that point).
-- **In-game overlay** (optional): a separate, transparent, click-through window showing your own stats, the skill to level up and, while you hold Tab, the estimated gold difference per lane next to the game's scoreboard.
-- **Profile and match history**: rank and LP over time, recent games, full post-game analysis (scoreboard, loadouts, timeline), season duos.
+![Champion select: pick suggestions with their reasons](screenshots/01-champ-select-picks.jpg)
+
+- **Champion select, live** (official local League Client API):
+  - your role and lane opponent;
+  - ban and pick suggestions ranked by an explainable model (recent patches, smoothed small samples, known kit interactions, synergies with your allies, your own comfort), each with its reasons;
+  - after you lock in, the most played build (runes, summoner spells, items, skill order) with one-click import, plus the lane matchup and a game plan.
+
+![After lock-in: lane matchup and build](screenshots/02-champ-select-build.jpg)
+
+- **Loading screen** (optional overlay): the rank, season record and champion mastery of the 10 players (names shown by the game itself at that point), with short factual labels such as "New to this champion".
+
+![Loading-screen overlay](screenshots/08b-loading-screen-zoom.jpg)
+- **In-game overlay** (optional): a separate, transparent, click-through window:
+  - your own stats, the skill to level up, next item and trinket tips;
+  - while you hold Tab, the estimated gold difference per lane next to the game's scoreboard.
+  - Every widget can be shown, shown only with Tab, or hidden, and moved and resized.
+
+![Overlay settings](screenshots/07-overlay.jpg)
+
+- **Profile and match history**: rank and LP over time, recent games, full post-game analysis (scoreboard, loadouts, timeline), season duos, and the impact of the latest patch on your champions.
 - **Champion and player search**: matchups, best and worst teammates, most played builds, filterable by role.
 
+![Home](screenshots/03-home.jpg)
+![Post-game analysis](screenshots/05-match-analysis.jpg)
+![Champion page](screenshots/06-champion.jpg)
+
 Statistics come from Emerald to Master ranked solo/duo games and are smoothed so that small samples are never presented as reliable. A statistic is only recommended above 100 games.
+
+Screenshots: other players' Riot IDs are blurred.
 
 ## Fair play and privacy
 
